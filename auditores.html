@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8"/>
+        <title>SCGS - Auditores</title>
+        <link rel="shortcut icon" href="imagens/icon.png" type="image/x-icons" sizes="16x16">
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">        
+        <link rel="stylesheet" href="css/estilo.css">
+    </head>
+    <body>
+        <header>
+            <nav class="navbar navbar-expand-lg navbar-dark bg-primary">
+                <div class="container">
+                    <a class="navbar-brand" href="index.html">
+                        <img src="imagens/icon.png" width="30px" height="30px" class="d-inline-block align-top">
+                        SCGS
+                    </a>
+                    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#basicExampleNav"aria-controls="basicExampleNav" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="basicExampleNav">
+                        <ul class="navbar-nav mr-auto">
+                            <li class="nav-item">
+                                <a class="nav-link" href="index.html">Início</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="auditores.html">Auditores</a>
+                            </li>
+                            <li class="nav-item dropdown">
+                                <a class="nav-link dropdown-toggle" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                    Trilhas
+                                </a>
+                                <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                    <a class="dropdown-item" href="#">Gestão de Pessoas</a>
+                                    <a class="dropdown-item" href="#">Contratações</a>
+                                    <div class="dropdown-divider"></div>
+                                    <a class="dropdown-item" href="#">Mostrar mais ...</a>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </nav>
+        </header>
+        <article>
+            <div class="container">
+                <div class="jumbotron">
+                    <h3>Auditores da SCGS - Ano 2019</h3>
+                </div>
+            </div>
+        </article>
+        <article>
+            <div class="auditores">
+                <div class="container">
+                    <div class="row">
+                        <div class="col d-flex justify-content-center">
+                            <div class="card" style="width: 18rem;">
+                                <img src="imagens/account.jpg" height="200px" class="card-img-top" alt="...">
+                                <div class="card-body">
+                                    <h5 class="card-title">Paulo Farias</h5>
+                                    <p class="card-text">Superintendente da unidade</p>
+                                    <a href="#" class="btn btn-primary" data-toggle="modal" data-target="#modal">Ver informações</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col d-flex justify-content-center">
+                            <div class="card" style="width: 18rem;">
+                                <img src="imagens/account.jpg" height="200px" class="card-img-top" alt="...">
+                                <div class="card-body">
+                                    <h5 class="card-title">Fabiola Dourado</h5>
+                                    <p class="card-text">Auditora de Gestão de Pessoas</p>
+                                    <a href="#" class="btn btn-primary" data-toggle="modal" data-target="#modal">Ver informações</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col d-flex justify-content-center">
+                            <div class="card" style="width: 18rem;">
+                                <img src="imagens/account.jpg" height="200px" class="card-img-top" alt="...">
+                                <div class="card-body">
+                                    <h5 class="card-title">Breno Camargo</h5>
+                                    <p class="card-text">Auditor de Contratações</p>
+                                    <a href="#" class="btn btn-primary" data-toggle="modal" data-target="#modal">Ver informações</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col d-flex justify-content-center">
+                            <div class="card" style="width: 18rem;">
+                                <img src="imagens/account.jpg" height="200px" class="card-img-top" alt="...">
+                                <div class="card-body">
+                                    <h5 class="card-title">Fábio Lima</h5>
+                                    <p class="card-text">Auditor de Financeiro</p>
+                                    <a href="#" class="btn btn-primary" data-toggle="modal" data-target="#modal">Ver informações</a>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- MODALS -->
+                        <div class="modal fade" id="modal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                            <div class="modal-dialog" role="document">
+                                <div class="modal-content">
+                                    <div class="modal-header">
+                                        <h5 class="modal-title" id="exampleModalLabel"></h5>
+                                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                            <span aria-hidden="true">&times;</span>
+                                        </button>
+                                    </div>
+                                    <div class="modal-body">
+                                        <p class="name-auditor"></p>
+                                        <p class="text-justify">Ambitioni dedisse scripsisse iudicaretur. Cras mattis iudicium purus sit amet fermentum. Donec sed odio operae, eu vulputate felis rhoncus. Praeterea iter est quasdam res quas ex communi. At nos hinc posthac, sitientis piros Afros. Petierunt uti sibi concilium totius Galliae in diem certam indicere. Cras mattis iudicium purus sit amet fermentum.</p>
+                                    </div>
+                                    <div class="modal-footer">
+                                        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col">
+                            <a href="#" class="btn btn-grey">Acessar outros anos</a>
+                        </div>
+                        <div class="col">
+                            <nav class="d-flex justify-content-end">
+                                <ul class="pagination">
+                                    <li class="page-item"><a class="page-link" href="#">Anterior</a></li>
+                                    <li class="page-item"><a class="page-link" href="#">1</a></li>
+                                    <li class="page-item"><a class="page-link" href="#">2</a></li>
+                                    <li class="page-item"><a class="page-link" href="#">3</a></li>
+                                    <li class="page-item"><a class="page-link" href="#">Próximo</a></li>
+                                </ul>
+                            </nav>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </article>
+        <footer>
+            <div class="footer">
+                <div class="container">
+                    <p>&copy; 2017-2018 Controladoria Geral do Estado</p>
+                </div>
+            </div>
+        </footer>
+        <script src="js/script.js"></script>
+        <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+    </body>
+</html>
